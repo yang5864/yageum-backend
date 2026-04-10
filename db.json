@@ -25,7 +25,7 @@
             "thisMonthRank": 0,
             "streakDays": 0,
             "joinedAt": "2026-04-09",
-            "currentChallengeId": null,
+            "currentChallengeId": "2",
             "id": "pATImzNd7lY"
         },
         {
@@ -39,7 +39,7 @@
             "thisMonthRank": 0,
             "streakDays": 0,
             "joinedAt": "2026-04-09",
-            "currentChallengeId": null,
+            "currentChallengeId": "3",
             "id": "WMNIxvbXK0s"
         },
         {
@@ -53,7 +53,7 @@
             "thisMonthRank": 0,
             "streakDays": 0,
             "joinedAt": "2026-04-10",
-            "currentChallengeId": null,
+            "currentChallengeId": "4",
             "id": "MkfkR-x"
         }
     ],
@@ -275,21 +275,94 @@
             "updatedAt": "2026-04-05T14:00:00"
         }
     ],
+    "monthlyChallenge": [
+        {
+            "id": "1",
+            "month": "2026-01",
+            "title": "10만원 한달살기",
+            "category": "식비",
+            "targetAmount": 100000,
+            "description": "식비 카테고리 예산을 10만원 이하로 유지하기"
+        },
+        {
+            "id": "2",
+            "month": "2026-02",
+            "title": "쇼핑 5만원 제한",
+            "category": "쇼핑",
+            "targetAmount": 50000,
+            "description": "쇼핑 카테고리 지출을 5만원 이하로 유지하기"
+        },
+        {
+            "id": "3",
+            "month": "2026-03",
+            "title": "카페 지출 줄이기",
+            "category": "카페",
+            "targetAmount": 30000,
+            "description": "카페 카테고리 지출을 3만원 이하로 유지하기"
+        },
+        {
+            "id": "4",
+            "month": "2026-04",
+            "title": "10만원 한달살기",
+            "category": "식비",
+            "targetAmount": 100000,
+            "description": "식비 카테고리 예산을 10만원 이하로 유지하기"
+        }
+    ],
     "challenges": [
         {
             "id": "1",
             "userId": "1",
-            "title": "10만원 한달살기",
-            "month": "2026-04",
-            "targetAmount": 100000,
+            "monthlyChallengeId": "4",
             "spentAmount": 67300,
             "savedAmount": 32700,
             "status": "active",
-            "description": "식비 카테고리 예산을 10만원 이하로 유지하기",
             "weeks": [
                 { "label": "1주 완료", "status": "done" },
                 { "label": "2주 완료", "status": "done" },
                 { "label": "3주 진행중", "status": "current" },
+                { "label": "4주 진행 전", "status": "todo" }
+            ]
+        },
+        {
+            "id": "2",
+            "userId": "pATImzNd7lY",
+            "monthlyChallengeId": "4",
+            "spentAmount": 45000,
+            "savedAmount": 55000,
+            "status": "active",
+            "weeks": [
+                { "label": "1주 완료", "status": "done" },
+                { "label": "2주 완료", "status": "done" },
+                { "label": "3주 진행중", "status": "current" },
+                { "label": "4주 진행 전", "status": "todo" }
+            ]
+        },
+        {
+            "id": "3",
+            "userId": "WMNIxvbXK0s",
+            "monthlyChallengeId": "4",
+            "spentAmount": 72000,
+            "savedAmount": 28000,
+            "status": "active",
+            "weeks": [
+                { "label": "1주 완료", "status": "done" },
+                { "label": "2주 진행중", "status": "current" },
+                { "label": "3주 진행 전", "status": "todo" },
+                { "label": "4주 진행 전", "status": "todo" }
+            ]
+        },
+        {
+            "id": "4",
+            "userId": "MkfkR-x",
+            "monthlyChallengeId": "4",
+            "spentAmount": 88000,
+            "savedAmount": 12000,
+            "status": "active",
+            "weeks": [
+                { "label": "1주 완료", "status": "done" },
+                { "label": "2주 진행중", "status": "current" },
+                { "label": "3주 진행 전", "status": "todo" },
                 { "label": "4주 진행 전", "status": "todo" }
             ]
         }
@@ -297,7 +370,7 @@
     "challengeLeaderboard": [
         {
             "id": "1",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 1,
             "name": "박민준",
             "savedAmount": 61580,
@@ -306,7 +379,7 @@
         },
         {
             "id": "2",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 2,
             "name": "이서연",
             "savedAmount": 47900,
@@ -315,7 +388,7 @@
         },
         {
             "id": "3",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 3,
             "name": "김재훈",
             "savedAmount": 38200,
@@ -324,7 +397,7 @@
         },
         {
             "id": "4",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 4,
             "name": "최수진",
             "savedAmount": 34500,
@@ -333,7 +406,7 @@
         },
         {
             "id": "5",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 5,
             "name": "나 (홍길동)",
             "savedAmount": 32700,
@@ -342,7 +415,7 @@
         },
         {
             "id": "6",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 6,
             "name": "정우진",
             "savedAmount": 28100,
@@ -351,7 +424,7 @@
         },
         {
             "id": "7",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 7,
             "name": "한지수",
             "savedAmount": 22400,
@@ -360,7 +433,7 @@
         },
         {
             "id": "8",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 8,
             "name": "오승현",
             "savedAmount": 15800,
@@ -369,7 +442,7 @@
         },
         {
             "id": "9",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 9,
             "name": "윤채원",
             "savedAmount": 9300,
@@ -378,7 +451,7 @@
         },
         {
             "id": "10",
-            "challengeId": 1,
+            "monthlyChallengeId": "4",
             "rank": 10,
             "name": "강도현",
             "savedAmount": 3500,
@@ -413,16 +486,6 @@
             "status": "fail",
             "spentAmount": 89000,
             "savedAmount": -39000
-        }
-    ],
-    "missions": [
-        {
-            "id": "1",
-            "userId": "1",
-            "title": "집밥 5일 연속",
-            "status": "in_progress",
-            "currentCount": 4,
-            "targetCount": 5
         }
     ]
 }
