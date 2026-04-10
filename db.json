@@ -519,26 +519,6 @@
             "status": "fail",
             "spentAmount": 78000,
             "savedAmount": -28000
-        },
-        {
-            "id": "7",
-            "userId": "WMNIxvbXK0s",
-            "title": "카페 지출 줄이기",
-            "category": "카페",
-            "month": "2026-03",
-            "status": "success",
-            "spentAmount": 21000,
-            "savedAmount": 9000
-        },
-        {
-            "id": "8",
-            "userId": "MkfkR-x",
-            "title": "카페 지출 줄이기",
-            "category": "카페",
-            "month": "2026-03",
-            "status": "success",
-            "spentAmount": 18000,
-            "savedAmount": 12000
         }
     ]
 }
