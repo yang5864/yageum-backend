@@ -14,7 +14,7 @@ router.render = (req, res) => {
   // 비밀번호를 가리는 함수
   const maskPassword = (obj) => {
     if (obj && obj.password) {
-      obj.password = "비공개 🔒"; // 아예 삭제하려면 delete obj.password; 사용
+      obj.password = "비공개"; // 아예 삭제하려면 delete obj.password; 사용
     }
     return obj;
   };
