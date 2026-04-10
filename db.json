@@ -486,6 +486,51 @@
             "status": "fail",
             "spentAmount": 89000,
             "savedAmount": -39000
+        },
+        {
+            "id": "4",
+            "userId": "pATImzNd7lY",
+            "title": "쇼핑 5만원 제한",
+            "month": "2026-02",
+            "status": "success",
+            "spentAmount": 32000,
+            "savedAmount": 18000
+        },
+        {
+            "id": "5",
+            "userId": "pATImzNd7lY",
+            "title": "카페 지출 줄이기",
+            "month": "2026-03",
+            "status": "fail",
+            "spentAmount": 42000,
+            "savedAmount": -12000
+        },
+        {
+            "id": "6",
+            "userId": "WMNIxvbXK0s",
+            "title": "쇼핑 5만원 제한",
+            "month": "2026-02",
+            "status": "fail",
+            "spentAmount": 78000,
+            "savedAmount": -28000
+        },
+        {
+            "id": "7",
+            "userId": "WMNIxvbXK0s",
+            "title": "카페 지출 줄이기",
+            "month": "2026-03",
+            "status": "success",
+            "spentAmount": 21000,
+            "savedAmount": 9000
+        },
+        {
+            "id": "8",
+            "userId": "MkfkR-x",
+            "title": "카페 지출 줄이기",
+            "month": "2026-03",
+            "status": "success",
+            "spentAmount": 18000,
+            "savedAmount": 12000
         }
     ]
 }
