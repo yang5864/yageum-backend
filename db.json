@@ -371,92 +371,92 @@
         {
             "id": "1",
             "monthlyChallengeId": "4",
+            "userId": "fake-1",
             "rank": 1,
             "name": "박민준",
             "savedAmount": 61580,
-            "spentAmount": 38420,
-            "isMe": false
+            "spentAmount": 38420
         },
         {
             "id": "2",
             "monthlyChallengeId": "4",
+            "userId": "fake-2",
             "rank": 2,
             "name": "이서연",
             "savedAmount": 47900,
-            "spentAmount": 52100,
-            "isMe": false
+            "spentAmount": 52100
         },
         {
             "id": "3",
             "monthlyChallengeId": "4",
+            "userId": "fake-3",
             "rank": 3,
             "name": "김재훈",
             "savedAmount": 38200,
-            "spentAmount": 61800,
-            "isMe": false
+            "spentAmount": 61800
         },
         {
             "id": "4",
             "monthlyChallengeId": "4",
+            "userId": "fake-4",
             "rank": 4,
             "name": "최수진",
             "savedAmount": 34500,
-            "spentAmount": 65500,
-            "isMe": false
+            "spentAmount": 65500
         },
         {
             "id": "5",
             "monthlyChallengeId": "4",
+            "userId": "1",
             "rank": 5,
-            "name": "나 (홍길동)",
+            "name": "홍길동",
             "savedAmount": 32700,
-            "spentAmount": 67300,
-            "isMe": true
+            "spentAmount": 67300
         },
         {
             "id": "6",
             "monthlyChallengeId": "4",
+            "userId": "fake-6",
             "rank": 6,
             "name": "정우진",
             "savedAmount": 28100,
-            "spentAmount": 71900,
-            "isMe": false
+            "spentAmount": 71900
         },
         {
             "id": "7",
             "monthlyChallengeId": "4",
+            "userId": "fake-7",
             "rank": 7,
             "name": "한지수",
             "savedAmount": 22400,
-            "spentAmount": 77600,
-            "isMe": false
+            "spentAmount": 77600
         },
         {
             "id": "8",
             "monthlyChallengeId": "4",
+            "userId": "fake-8",
             "rank": 8,
             "name": "오승현",
             "savedAmount": 15800,
-            "spentAmount": 84200,
-            "isMe": false
+            "spentAmount": 84200
         },
         {
             "id": "9",
             "monthlyChallengeId": "4",
+            "userId": "fake-9",
             "rank": 9,
             "name": "윤채원",
             "savedAmount": 9300,
-            "spentAmount": 90700,
-            "isMe": false
+            "spentAmount": 90700
         },
         {
             "id": "10",
             "monthlyChallengeId": "4",
+            "userId": "fake-10",
             "rank": 10,
             "name": "강도현",
             "savedAmount": 3500,
-            "spentAmount": 96500,
-            "isMe": false
+            "spentAmount": 96500
         }
     ],
     "challengeHistory": [
