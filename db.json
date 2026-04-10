@@ -339,6 +339,51 @@
             "savedAmount": 32700,
             "spentAmount": 67300,
             "isMe": true
+        },
+        {
+            "id": "6",
+            "challengeId": 1,
+            "rank": 6,
+            "name": "정우진",
+            "savedAmount": 28100,
+            "spentAmount": 71900,
+            "isMe": false
+        },
+        {
+            "id": "7",
+            "challengeId": 1,
+            "rank": 7,
+            "name": "한지수",
+            "savedAmount": 22400,
+            "spentAmount": 77600,
+            "isMe": false
+        },
+        {
+            "id": "8",
+            "challengeId": 1,
+            "rank": 8,
+            "name": "오승현",
+            "savedAmount": 15800,
+            "spentAmount": 84200,
+            "isMe": false
+        },
+        {
+            "id": "9",
+            "challengeId": 1,
+            "rank": 9,
+            "name": "윤채원",
+            "savedAmount": 9300,
+            "spentAmount": 90700,
+            "isMe": false
+        },
+        {
+            "id": "10",
+            "challengeId": 1,
+            "rank": 10,
+            "name": "강도현",
+            "savedAmount": 3500,
+            "spentAmount": 96500,
+            "isMe": false
         }
     ],
     "challengeHistory": [
