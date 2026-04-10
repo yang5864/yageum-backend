@@ -1,0 +1,12 @@
+{
+  "name": "yageum-backend",
+  "version": "1.0.0",
+  "description": "야금 프로젝트 백엔드 (json-server on Glitch)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

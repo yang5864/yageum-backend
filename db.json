@@ -1,0 +1,369 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "hong@example.com",
+      "password": "kb1234!",
+      "nickname": "홍길동",
+      "profileImage": null,
+      "monthlyBudget": 500000,
+      "level": 7,
+      "challengeCount": 12,
+      "thisMonthRank": 5,
+      "streakDays": 32,
+      "joinedAt": "2026-03-01",
+      "currentChallengeId": 1
+    },
+    {
+      "email": "wldus@naver.com",
+      "password": "wldus2714!",
+      "nickname": "지연",
+      "profileImage": null,
+      "monthlyBudget": 600000,
+      "level": 1,
+      "challengeCount": 0,
+      "thisMonthRank": 0,
+      "streakDays": 0,
+      "joinedAt": "2026-04-09",
+      "currentChallengeId": null,
+      "id": "pATImzNd7lY"
+    },
+    {
+      "email": "test",
+      "password": "qwer1234!",
+      "nickname": "test",
+      "profileImage": null,
+      "monthlyBudget": 0,
+      "level": 1,
+      "challengeCount": 0,
+      "thisMonthRank": 0,
+      "streakDays": 0,
+      "joinedAt": "2026-04-09",
+      "currentChallengeId": null,
+      "id": "WMNIxvbXK0s"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "type": "income",
+      "category": "부업",
+      "amount": 300000,
+      "date": "2026-04-28",
+      "merchant": "크몽",
+      "memo": "디자인 외주 정산",
+      "createdAt": "2026-04-28T09:00:00",
+      "updatedAt": "2026-04-28T09:00:00"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "type": "expense",
+      "category": "식비",
+      "amount": 18000,
+      "date": "2026-04-26",
+      "merchant": "샐러드 가게",
+      "memo": "주말 점심",
+      "createdAt": "2026-04-26T12:30:00",
+      "updatedAt": "2026-04-26T12:30:00"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "type": "income",
+      "category": "급여",
+      "amount": 3000000,
+      "date": "2026-04-01",
+      "merchant": "KB국민은행",
+      "memo": "4월 급여",
+      "createdAt": "2026-04-01T09:00:00",
+      "updatedAt": "2026-04-01T09:00:00"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "type": "expense",
+      "category": "기타",
+      "amount": 45500,
+      "date": "2026-04-02",
+      "merchant": "마트",
+      "memo": "생활용품 구매",
+      "createdAt": "2026-04-02T19:20:00",
+      "updatedAt": "2026-04-02T19:20:00"
+    },
+    {
+      "id": "5",
+      "userId": "1",
+      "type": "expense",
+      "category": "교통",
+      "amount": 12500,
+      "date": "2026-04-03",
+      "merchant": "지하철 교통비",
+      "memo": "교통카드 충전",
+      "createdAt": "2026-04-03T08:10:00",
+      "updatedAt": "2026-04-03T08:10:00"
+    },
+    {
+      "id": "6",
+      "userId": "1",
+      "type": "expense",
+      "category": "쇼핑",
+      "amount": 89000,
+      "date": "2026-04-03",
+      "merchant": "옷 구매",
+      "memo": "봄 옷 구매",
+      "createdAt": "2026-04-03T21:00:00",
+      "updatedAt": "2026-04-03T21:00:00"
+    },
+    {
+      "id": "7",
+      "userId": "1",
+      "type": "expense",
+      "category": "카페",
+      "amount": 32000,
+      "date": "2026-04-05",
+      "merchant": "스터디 카페",
+      "memo": "스터디 이용",
+      "createdAt": "2026-04-05T14:30:00",
+      "updatedAt": "2026-04-05T14:30:00"
+    },
+    {
+      "id": "8",
+      "userId": "1",
+      "type": "expense",
+      "category": "주거",
+      "amount": 250000,
+      "date": "2026-04-05",
+      "merchant": "관리비",
+      "memo": "월세 및 관리비",
+      "createdAt": "2026-04-05T18:00:00",
+      "updatedAt": "2026-04-05T18:00:00"
+    },
+    {
+      "id": "9",
+      "userId": "1",
+      "type": "income",
+      "category": "부업",
+      "amount": 500000,
+      "date": "2026-04-06",
+      "merchant": "프리랜서",
+      "memo": "프로젝트 정산",
+      "createdAt": "2026-04-06T10:00:00",
+      "updatedAt": "2026-04-06T10:00:00"
+    },
+    {
+      "id": "10",
+      "userId": "1",
+      "type": "expense",
+      "category": "식비",
+      "amount": 28000,
+      "date": "2026-04-07",
+      "merchant": "점심 도시락",
+      "memo": "점심 도시락",
+      "createdAt": "2026-04-07T12:00:00",
+      "updatedAt": "2026-04-07T12:00:00"
+    },
+    {
+      "id": "11",
+      "userId": "1",
+      "type": "income",
+      "category": "급여",
+      "amount": 3000000,
+      "date": "2026-03-01",
+      "merchant": "KB국민은행",
+      "memo": "3월 급여",
+      "createdAt": "2026-03-01T09:00:00",
+      "updatedAt": "2026-03-01T09:00:00"
+    },
+    {
+      "id": "12",
+      "userId": "1",
+      "type": "expense",
+      "category": "교통",
+      "amount": 14500,
+      "date": "2026-03-02",
+      "merchant": "버스 정기권",
+      "memo": "교통카드 충전",
+      "createdAt": "2026-03-02T08:15:00",
+      "updatedAt": "2026-03-02T08:15:00"
+    },
+    {
+      "id": "13",
+      "userId": "1",
+      "type": "income",
+      "category": "부업",
+      "amount": 200000,
+      "date": "2026-03-08",
+      "merchant": "과외",
+      "memo": "주말 과외비",
+      "createdAt": "2026-03-08T20:00:00",
+      "updatedAt": "2026-03-08T20:00:00"
+    },
+    {
+      "id": "14",
+      "userId": "1",
+      "type": "expense",
+      "category": "쇼핑",
+      "amount": 55000,
+      "date": "2026-03-12",
+      "merchant": "생활 잡화",
+      "memo": "정리용품 구매",
+      "createdAt": "2026-03-12T13:40:00",
+      "updatedAt": "2026-03-12T13:40:00"
+    },
+    {
+      "id": "15",
+      "userId": "1",
+      "type": "expense",
+      "category": "카페",
+      "amount": 18000,
+      "date": "2026-03-18",
+      "merchant": "카페",
+      "memo": "미팅 음료",
+      "createdAt": "2026-03-18T16:20:00",
+      "updatedAt": "2026-03-18T16:20:00"
+    },
+    {
+      "id": "16",
+      "userId": "1",
+      "type": "expense",
+      "category": "식비",
+      "amount": 22000,
+      "date": "2026-03-20",
+      "merchant": "분식집",
+      "memo": "저녁 식사",
+      "createdAt": "2026-03-20T19:10:00",
+      "updatedAt": "2026-03-20T19:10:00"
+    },
+    {
+      "id": "17",
+      "userId": "1",
+      "type": "expense",
+      "category": "의료",
+      "amount": 15000,
+      "date": "2026-04-03",
+      "merchant": "동네 병원",
+      "memo": "감기 진료",
+      "createdAt": "2026-04-03T10:00:00",
+      "updatedAt": "2026-04-03T10:00:00"
+    },
+    {
+      "id": "18",
+      "userId": "1",
+      "type": "expense",
+      "category": "여가",
+      "amount": 32000,
+      "date": "2026-04-05",
+      "merchant": "영화관",
+      "memo": "주말 영화",
+      "createdAt": "2026-04-05T14:00:00",
+      "updatedAt": "2026-04-05T14:00:00"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "10만원 한달살기",
+      "month": "2026-04",
+      "targetAmount": 100000,
+      "spentAmount": 67300,
+      "savedAmount": 32700,
+      "status": "active",
+      "description": "식비 카테고리 예산을 10만원 이하로 유지하기",
+      "weeks": [
+        { "label": "1주 완료", "status": "done" },
+        { "label": "2주 완료", "status": "done" },
+        { "label": "3주 진행중", "status": "current" },
+        { "label": "4주 진행 전", "status": "todo" }
+      ]
+    }
+  ],
+  "challengeLeaderboard": [
+    {
+      "id": "1",
+      "challengeId": 1,
+      "rank": 1,
+      "name": "박민준",
+      "savedAmount": 61580,
+      "spentAmount": 38420,
+      "isMe": false
+    },
+    {
+      "id": "2",
+      "challengeId": 1,
+      "rank": 2,
+      "name": "이서연",
+      "savedAmount": 47900,
+      "spentAmount": 52100,
+      "isMe": false
+    },
+    {
+      "id": "3",
+      "challengeId": 1,
+      "rank": 3,
+      "name": "김재훈",
+      "savedAmount": 38200,
+      "spentAmount": 61800,
+      "isMe": false
+    },
+    {
+      "id": "4",
+      "challengeId": 1,
+      "rank": 4,
+      "name": "최수진",
+      "savedAmount": 34500,
+      "spentAmount": 65500,
+      "isMe": false
+    },
+    {
+      "id": "5",
+      "challengeId": 1,
+      "rank": 5,
+      "name": "나 (홍길동)",
+      "savedAmount": 32700,
+      "spentAmount": 67300,
+      "isMe": true
+    }
+  ],
+  "challengeHistory": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "10만원 한달살기",
+      "month": "2026-01",
+      "status": "success",
+      "spentAmount": 67300,
+      "savedAmount": 32700
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "카페 지출 줄이기",
+      "month": "2026-03",
+      "status": "success",
+      "spentAmount": 28000,
+      "savedAmount": 12000
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "title": "쇼핑 5만원 제한",
+      "month": "2026-02",
+      "status": "fail",
+      "spentAmount": 89000,
+      "savedAmount": -39000
+    }
+  ],
+  "missions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "집밥 5일 연속",
+      "status": "in_progress",
+      "currentCount": 4,
+      "targetCount": 5
+    }
+  ]
+}
